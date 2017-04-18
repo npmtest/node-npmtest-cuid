@@ -1,0 +1,12 @@
+<svg height="142" width="720" xmlns="http://www.w3.org/2000/svg">
+<rect height="142" fill="#555" width="720"></rect>
+<text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
+<tspan x="10" y="26">5 megabytes installed</tspan>
+<tspan x="10" y="42"></tspan>
+<tspan x="10" y="58">node_modules</tspan>
+<tspan x="10" y="74">└─┬ cuid@1.3.8 </tspan>
+<tspan x="10" y="90">  ├── browser-fingerprint@0.0.1 </tspan>
+<tspan x="10" y="106">  ├── core-js@1.2.7 </tspan>
+<tspan x="10" y="122">  └── node-fingerprint@0.0.2</tspan>
+</text>
+</svg>
