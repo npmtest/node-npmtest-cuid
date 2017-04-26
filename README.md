@@ -1,6 +1,6 @@
 # npmtest-cuid
 
-#### test coverage for  [cuid (v1.3.8)](https://github.com/ericelliott/cuid#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cuid.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cuid) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cuid.svg)](https://travis-ci.org/npmtest/node-npmtest-cuid)
+#### basic test coverage for  [cuid (v1.3.8)](https://github.com/ericelliott/cuid#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-cuid.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-cuid) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-cuid.svg)](https://travis-ci.org/npmtest/node-npmtest-cuid)
 
 #### Collision-resistant ids optimized for horizontal scaling and performance. For node and browsers.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-cuid/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-cuid/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-cuid/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-cuid/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cuid/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cuid/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-cuid/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-cuid/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-cuid/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-cuid/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-cuid/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-cuid/build/coverage.html/index.html)
 
@@ -110,7 +110,8 @@
         "validate": "npm run lint && npm run build && npm run test",
         "validate-dev": "npm run lint && npm run build && npm run test | faucet"
     },
-    "version": "1.3.8"
+    "version": "1.3.8",
+    "bin": {}
 }
 ```
 
